@@ -21,3 +21,5 @@ nonbredelobjeto.reverse(l,r,t) idem hacia atrás
 nombredelobjeto.rotate(t) gira durante un tiempo t (positivo o nevativo para girar a derecha e izquierda
 
 nombredelobjeto.brake(t) para durante un tiempo t los dos motores
+
+Los ejemplos de uso necesitan además la librería NewPing.h
