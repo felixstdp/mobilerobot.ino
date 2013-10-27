@@ -1,6 +1,6 @@
 #include <RobotMovil.h>
 
-RobotMovil robot();
+RobotMovil robot;
 
 void setup()
 {
