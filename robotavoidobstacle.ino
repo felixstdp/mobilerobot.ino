@@ -1,5 +1,5 @@
 #include <RobotMovil.h>
-RobotMovil robot();
+RobotMovil robot;
 
 #include <NewPing.h>
 NewPing sonar_L(10,10,50);
