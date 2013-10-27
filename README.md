@@ -16,7 +16,7 @@ Las funciones de esa librería son
 nombredelobjeto.forward(l,r,t) movimiento hacia adelante con r,l velocidad de las ruedas izquierda y derecha entre 0 y 255,
 durante t tiempo en ms
 
-nonbredelobjeto.reverse(l,r,t) idem hacia atrás
+nombredelobjeto.reverse(l,r,t) idem hacia atrás
 
 nombredelobjeto.rotate(t) gira durante un tiempo t (positivo o nevativo para girar a derecha e izquierda
 
