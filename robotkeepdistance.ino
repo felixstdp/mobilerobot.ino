@@ -1,7 +1,7 @@
 #define distance 30
 
 #include <RobotMovil.h>
-RobotMovil robot();
+RobotMovil robot;
 
 #include <NewPing.h>
 NewPing sonar(10,10,50);
