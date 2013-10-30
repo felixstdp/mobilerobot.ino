@@ -7,5 +7,6 @@ void setup()
 
 void loop()
 {
-  robot.forward(80,80,1000);
+  robot.forward(120,120,1000);
+  robot.brake(100000);
 }
