@@ -6,9 +6,7 @@ RobotMovil robot;
 #include <NewPing.h>
 NewPing sonar(10,10,50);
 
-void setup()
-{
-}
+void setup() {}
 
 void loop()
 {
