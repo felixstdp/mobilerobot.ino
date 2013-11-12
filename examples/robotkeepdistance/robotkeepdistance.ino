@@ -1,4 +1,4 @@
-#define distance 30
+#define limit 15
 
 #include <RobotMovil.h>
 RobotMovil robot;
@@ -16,7 +16,7 @@ void loop()
   int dist = sonar.ping_cm();
   if (dist==0) {dist=50;}
 
-  if (dist<distance) {robot.reverse(120,120,0);
-  if (dist>distance) {robot.forward(120,120,0);
-  if (dist==distance) {robot.brake(0)};
+  if (dist<limit) {robot.reverse(120,120,0);
+  if (dist>limit) {robot.forward(120,120,0);
+  if (dist==limit) {robot.brake(0)};
 }
