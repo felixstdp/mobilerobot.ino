@@ -2,14 +2,12 @@
 RobotMovil robot;
 
 #include <IRremote.h>
-#define vel 200
-
 IRrecv irrecv(9);
 decode_results results;
 
 void setup()
 {
-  irrecv.enableIRIn(); // Start the receiver
+  irrecv.enableIRIn();
 }
 
 void loop() {
@@ -36,6 +34,6 @@ void loop() {
         break;
     }
     brake(0);
-    irrecv.resume(); // Receive the next value
+    irrecv.resume();
   }
 }
